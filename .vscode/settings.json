@@ -1,0 +1,28 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "javascript.format.enable": false,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "vue",
+        "javascript",
+        "html",
+        "json"
+    ],
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
